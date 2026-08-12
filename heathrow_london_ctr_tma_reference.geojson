@@ -1,0 +1,2175 @@
+{
+  "type": "FeatureCollection",
+  "name": "Heathrow / London controlled airspace reference geometry",
+  "metadata": {
+    "created_for": "3D/Cesium visualisation reference",
+    "contains": [
+      "LONDON CTR",
+      "LONDON TMA"
+    ],
+    "important": "Not for navigation or operational flight planning. Flight levels are stored as approximate feet/metres only for visual extrusion; FL is pressure-referenced, not a true geometric altitude.",
+    "authoritative_source": "NATS UK AIP / UK ICAO AIP Dataset (AIXM 5.1)",
+    "geometry_reference": "https://github.com/ahsparrow/airspace"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "LONDON TMA",
+        "id": "ltma-1",
+        "sequence": "1",
+        "type": "TMA",
+        "class": "A",
+        "lower_label": "2500 ft",
+        "upper_label": "FL195",
+        "lower_ft_visual": 2500.0,
+        "upper_ft_visual": 19500.0,
+        "lower_m_visual": 762.0,
+        "upper_m_visual": 5943.6,
+        "lower_reference": "AMSL/ALT",
+        "upper_reference": "FL/STD",
+        "source_note": "Geometry transcribed in the public ahsparrow/airspace YAIXM repository from the UK AIP; cross-check against the current NATS UK ICAO AIP Dataset before operational use.",
+        "source_airac_context": "Repository release history current through AIRAC 2026-07-09; London TMA lateral limits last noted revised 2026-03-19."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -0.9211111111111111,
+              51.58083333333334
+            ],
+            [
+              -0.8169444444444445,
+              51.587500000000006
+            ],
+            [
+              -0.7683333333333334,
+              51.60888888888889
+            ],
+            [
+              -0.6861111111111111,
+              51.70722222222223
+            ],
+            [
+              -0.6680555555555555,
+              51.73583333333333
+            ],
+            [
+              -0.25166666666666665,
+              51.80833333333333
+            ],
+            [
+              -0.008333333333333333,
+              51.85055555555556
+            ],
+            [
+              -0.0016666666666666668,
+              51.86277777777778
+            ],
+            [
+              0.022222222222222223,
+              51.86527777777778
+            ],
+            [
+              0.02347911086423146,
+              51.86073551899409
+            ],
+            [
+              0.024972190330978167,
+              51.8562209624988
+            ],
+            [
+              0.026716322191289915,
+              51.85174107130422
+            ],
+            [
+              0.028709347538315583,
+              51.84730119962461
+            ],
+            [
+              0.030948812066557668,
+              51.84290665228613
+            ],
+            [
+              0.033431969330883576,
+              51.83856267843425
+            ],
+            [
+              0.036155784340620195,
+              51.834274465314415
+            ],
+            [
+              0.039116937483298364,
+              51.83004713213329
+            ],
+            [
+              0.04231182877162562,
+              51.82588572400724
+            ],
+            [
+              0.045736582407701065,
+              51.82179520600523
+            ],
+            [
+              0.049387051657639874,
+              51.81778045729261
+            ],
+            [
+              0.05325882402973936,
+              51.813846265382615
+            ],
+            [
+              0.05734722674899964,
+              51.809997320501715
+            ],
+            [
+              0.061647332520615356,
+              51.80623821007536
+            ],
+            [
+              0.06615396557481382,
+              51.80257341334009
+            ],
+            [
+              0.07086170798503635,
+              51.799007296088
+            ],
+            [
+              0.07576490625145191,
+              51.795544105549304
+            ],
+            [
+              0.08085767814152062,
+              51.792187965418535
+            ],
+            [
+              0.08613391977909371,
+              51.78894287103008
+            ],
+            [
+              0.09158731297333952,
+              51.785812684687926
+            ],
+            [
+              0.09721133277875435,
+              51.78280113115484
+            ],
+            [
+              0.10299925527718334,
+              51.77991179330595
+            ],
+            [
+              0.1089441655728266,
+              51.77714810795116
+            ],
+            [
+              0.1150389659907444,
+              51.77451336183107
+            ],
+            [
+              0.12127638446974127,
+              51.77201068779049
+            ],
+            [
+              0.12764898313989875,
+              51.76964306113388
+            ],
+            [
+              0.13414916707515206,
+              51.767413296166154
+            ],
+            [
+              0.1407691932113287,
+              51.76532404292305
+            ],
+            [
+              0.14750117941958799,
+              51.76337778409404
+            ],
+            [
+              0.15433711372555395,
+              51.76157683214114
+            ],
+            [
+              0.161268863664045,
+              51.75992332661688
+            ],
+            [
+              0.16828818575935062,
+              51.75841923168392
+            ],
+            [
+              0.17538673512095088,
+              51.75706633383901
+            ],
+            [
+              0.18255607514448272,
+              51.755866239843805
+            ],
+            [
+              0.18978768730770487,
+              51.754820374864444
+            ],
+            [
+              0.19707298105116214,
+              51.75392998082195
+            ],
+            [
+              0.2044033037332938,
+              51.75319611495528
+            ],
+            [
+              0.21176995064951298,
+              51.7526196485982
+            ],
+            [
+              0.21916417510497627,
+              51.752201266171575
+            ],
+            [
+              0.38583333333333336,
+              51.76555555555556
+            ],
+            [
+              0.23777777777777778,
+              51.65222222222222
+            ],
+            [
+              0.36,
+              51.575
+            ],
+            [
+              0.5605555555555556,
+              51.346111111111114
+            ],
+            [
+              0.515,
+              51.2725
+            ],
+            [
+              0.3383333333333333,
+              51.20472222222222
+            ],
+            [
+              0.2613888888888889,
+              51.00055555555556
+            ],
+            [
+              0.22583333333333333,
+              50.983333333333334
+            ],
+            [
+              -0.1686111111111111,
+              50.92805555555555
+            ],
+            [
+              -0.5744444444444444,
+              50.97555555555556
+            ],
+            [
+              -0.6819444444444444,
+              51.14222222222222
+            ],
+            [
+              -0.5569444444444445,
+              51.17055555555555
+            ],
+            [
+              -0.6663888888888889,
+              51.34305555555556
+            ],
+            [
+              -0.71,
+              51.350833333333334
+            ],
+            [
+              -0.7114722236105571,
+              51.35210853943718
+            ],
+            [
+              -0.7129507661017125,
+              51.353380691543215
+            ],
+            [
+              -0.7166666666666667,
+              51.352222222222224
+            ],
+            [
+              -0.9211111111111111,
+              51.393055555555556
+            ],
+            [
+              -0.9211111111111111,
+              51.58083333333334
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "LONDON TMA",
+        "id": "ltma-3",
+        "sequence": "3",
+        "type": "TMA",
+        "class": "A",
+        "lower_label": "3500 ft",
+        "upper_label": "FL195",
+        "lower_ft_visual": 3500.0,
+        "upper_ft_visual": 19500.0,
+        "lower_m_visual": 1066.8,
+        "upper_m_visual": 5943.6,
+        "lower_reference": "AMSL/ALT",
+        "upper_reference": "FL/STD",
+        "source_note": "Geometry transcribed in the public ahsparrow/airspace YAIXM repository from the UK AIP; cross-check against the current NATS UK ICAO AIP Dataset before operational use.",
+        "source_airac_context": "Repository release history current through AIRAC 2026-07-09; London TMA lateral limits last noted revised 2026-03-19."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              0.22972222222222222,
+              52.10166666666667
+            ],
+            [
+              0.4305555555555556,
+              52.10166666666667
+            ],
+            [
+              0.6777777777777777,
+              52.04055555555556
+            ],
+            [
+              0.7366666666666666,
+              51.73361111111111
+            ],
+            [
+              0.8333333333333334,
+              51.57138888888889
+            ],
+            [
+              0.8333333333333334,
+              51.355555555555554
+            ],
+            [
+              0.7716666666666667,
+              51.151666666666664
+            ],
+            [
+              0.36138888888888887,
+              51.01416666666667
+            ],
+            [
+              0.2891666666666667,
+              51.073888888888895
+            ],
+            [
+              0.3383333333333333,
+              51.20472222222222
+            ],
+            [
+              0.515,
+              51.2725
+            ],
+            [
+              0.5605555555555556,
+              51.346111111111114
+            ],
+            [
+              0.36,
+              51.575
+            ],
+            [
+              0.23777777777777778,
+              51.65222222222222
+            ],
+            [
+              0.38583333333333336,
+              51.76555555555556
+            ],
+            [
+              0.21916666666666668,
+              51.75222222222222
+            ],
+            [
+              0.21176995064951298,
+              51.7526196485982
+            ],
+            [
+              0.2044033037332938,
+              51.75319611495528
+            ],
+            [
+              0.19707298105116214,
+              51.75392998082195
+            ],
+            [
+              0.18978768730770593,
+              51.75482037486445
+            ],
+            [
+              0.18255607514448272,
+              51.755866239843805
+            ],
+            [
+              0.17538673512095088,
+              51.75706633383901
+            ],
+            [
+              0.16828818575935062,
+              51.75841923168392
+            ],
+            [
+              0.161268863664045,
+              51.75992332661688
+            ],
+            [
+              0.15433711372555395,
+              51.76157683214114
+            ],
+            [
+              0.14750117941958799,
+              51.76337778409404
+            ],
+            [
+              0.1407691932113287,
+              51.76532404292305
+            ],
+            [
+              0.13414916707515206,
+              51.767413296166154
+            ],
+            [
+              0.12764898313989873,
+              51.76964306113388
+            ],
+            [
+              0.12127638446974127,
+              51.77201068779049
+            ],
+            [
+              0.11503896599074437,
+              51.77451336183107
+            ],
+            [
+              0.1089441655728266,
+              51.77714810795116
+            ],
+            [
+              0.10299925527718334,
+              51.77991179330595
+            ],
+            [
+              0.09721133277875435,
+              51.78280113115484
+            ],
+            [
+              0.09158731297333952,
+              51.785812684687926
+            ],
+            [
+              0.08613391977909371,
+              51.78894287103008
+            ],
+            [
+              0.08085767814152062,
+              51.792187965418535
+            ],
+            [
+              0.07576490625145191,
+              51.795544105549304
+            ],
+            [
+              0.07086170798503635,
+              51.799007296088
+            ],
+            [
+              0.06615396557481854,
+              51.80257341334009
+            ],
+            [
+              0.061647332520615356,
+              51.80623821007536
+            ],
+            [
+              0.057347226748999586,
+              51.80999732050171
+            ],
+            [
+              0.05325882402973936,
+              51.813846265382615
+            ],
+            [
+              0.049387051657639874,
+              51.81778045729261
+            ],
+            [
+              0.045736582407701065,
+              51.82179520600523
+            ],
+            [
+              0.04231182877162562,
+              51.82588572400724
+            ],
+            [
+              0.039116937483298364,
+              51.83004713213329
+            ],
+            [
+              0.036155784340620195,
+              51.834274465314415
+            ],
+            [
+              0.033431969330883576,
+              51.83856267843425
+            ],
+            [
+              0.030948812066557668,
+              51.84290665228613
+            ],
+            [
+              0.02870934753831561,
+              51.84730119962461
+            ],
+            [
+              0.026716322191289915,
+              51.85174107130422
+            ],
+            [
+              0.024972190330978167,
+              51.8562209624988
+            ],
+            [
+              0.02347911086423146,
+              51.86073551899409
+            ],
+            [
+              0.02223894438092483,
+              51.86527934354628
+            ],
+            [
+              -0.0016666666666666668,
+              51.86277777777778
+            ],
+            [
+              -0.008333333333333333,
+              51.85055555555556
+            ],
+            [
+              -0.25166666666666665,
+              51.80833333333333
+            ],
+            [
+              -0.6680555555555555,
+              51.73583333333333
+            ],
+            [
+              -0.6861111111111111,
+              51.70722222222223
+            ],
+            [
+              -0.7683333333333334,
+              51.60888888888889
+            ],
+            [
+              -0.8169444444444445,
+              51.587500000000006
+            ],
+            [
+              -0.8211111111111111,
+              51.6725
+            ],
+            [
+              -0.9305555555555555,
+              51.76166666666666
+            ],
+            [
+              -0.49194444444444446,
+              51.83916666666667
+            ],
+            [
+              -0.3625,
+              51.96194444444445
+            ],
+            [
+              0.15194444444444444,
+              52.05
+            ],
+            [
+              0.22972222222222222,
+              52.10166666666667
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "LONDON TMA",
+        "id": "ltma-4",
+        "sequence": "4",
+        "type": "TMA",
+        "class": "A",
+        "lower_label": "3500 ft",
+        "upper_label": "FL195",
+        "lower_ft_visual": 3500.0,
+        "upper_ft_visual": 19500.0,
+        "lower_m_visual": 1066.8,
+        "upper_m_visual": 5943.6,
+        "lower_reference": "AMSL/ALT",
+        "upper_reference": "FL/STD",
+        "source_note": "Geometry transcribed in the public ahsparrow/airspace YAIXM repository from the UK AIP; cross-check against the current NATS UK ICAO AIP Dataset before operational use.",
+        "source_airac_context": "Repository release history current through AIRAC 2026-07-09; London TMA lateral limits last noted revised 2026-03-19."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1.0,
+              51.40833333333333
+            ],
+            [
+              -1.0,
+              51.575833333333335
+            ],
+            [
+              -0.9211111111111111,
+              51.58083333333334
+            ],
+            [
+              -0.9211111111111111,
+              51.393055555555556
+            ],
+            [
+              -0.7166666666666667,
+              51.352222222222224
+            ],
+            [
+              -0.7130555555555556,
+              51.35333333333333
+            ],
+            [
+              -0.7114722236105571,
+              51.35210853943718
+            ],
+            [
+              -0.7099778072035625,
+              51.35084369955593
+            ],
+            [
+              -0.6663888888888889,
+              51.34305555555556
+            ],
+            [
+              -0.5569444444444445,
+              51.17055555555555
+            ],
+            [
+              -0.6819444444444444,
+              51.14222222222222
+            ],
+            [
+              -0.5744444444444444,
+              50.97555555555556
+            ],
+            [
+              -0.6844444444444444,
+              50.96083333333333
+            ],
+            [
+              -0.7066666666666667,
+              50.95777777777778
+            ],
+            [
+              -0.8080555555555556,
+              51.114444444444445
+            ],
+            [
+              -0.8483333333333334,
+              51.17638888888889
+            ],
+            [
+              -0.9188888888888889,
+              51.28472222222222
+            ],
+            [
+              -1.0,
+              51.40833333333333
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "LONDON TMA",
+        "id": "london-tma-5",
+        "sequence": "5",
+        "type": "TMA",
+        "class": "A",
+        "lower_label": "4500 ft",
+        "upper_label": "FL195",
+        "lower_ft_visual": 4500.0,
+        "upper_ft_visual": 19500.0,
+        "lower_m_visual": 1371.6000000000001,
+        "upper_m_visual": 5943.6,
+        "lower_reference": "AMSL/ALT",
+        "upper_reference": "FL/STD",
+        "source_note": "Geometry transcribed in the public ahsparrow/airspace YAIXM repository from the UK AIP; cross-check against the current NATS UK ICAO AIP Dataset before operational use.",
+        "source_airac_context": "Repository release history current through AIRAC 2026-07-09; London TMA lateral limits last noted revised 2026-03-19."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -0.9211111111111111,
+              51.58083333333334
+            ],
+            [
+              -1.0,
+              51.74916666666667
+            ],
+            [
+              -0.9305555555555555,
+              51.76166666666666
+            ],
+            [
+              -0.8211111111111111,
+              51.6725
+            ],
+            [
+              -0.8169444444444445,
+              51.587500000000006
+            ],
+            [
+              -0.9211111111111111,
+              51.58083333333334
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "LONDON TMA",
+        "id": "london-tma-6",
+        "sequence": "6",
+        "type": "TMA",
+        "class": "A",
+        "lower_label": "4500 ft",
+        "upper_label": "FL195",
+        "lower_ft_visual": 4500.0,
+        "upper_ft_visual": 19500.0,
+        "lower_m_visual": 1371.6000000000001,
+        "upper_m_visual": 5943.6,
+        "lower_reference": "AMSL/ALT",
+        "upper_reference": "FL/STD",
+        "source_note": "Geometry transcribed in the public ahsparrow/airspace YAIXM repository from the UK AIP; cross-check against the current NATS UK ICAO AIP Dataset before operational use.",
+        "source_airac_context": "Repository release history current through AIRAC 2026-07-09; London TMA lateral limits last noted revised 2026-03-19."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -0.2866666666666667,
+              52.10166666666667
+            ],
+            [
+              0.22972222222222222,
+              52.10166666666667
+            ],
+            [
+              0.15194444444444444,
+              52.05
+            ],
+            [
+              -0.3625,
+              51.96194444444445
+            ],
+            [
+              -0.47555555555555556,
+              52.010555555555555
+            ],
+            [
+              -0.2866666666666667,
+              52.10166666666667
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "LONDON TMA",
+        "id": "london-tma-7",
+        "sequence": "7",
+        "type": "TMA",
+        "class": "A",
+        "lower_label": "4500 ft",
+        "upper_label": "FL195",
+        "lower_ft_visual": 4500.0,
+        "upper_ft_visual": 19500.0,
+        "lower_m_visual": 1371.6000000000001,
+        "upper_m_visual": 5943.6,
+        "lower_reference": "AMSL/ALT",
+        "upper_reference": "FL/STD",
+        "source_note": "Geometry transcribed in the public ahsparrow/airspace YAIXM repository from the UK AIP; cross-check against the current NATS UK ICAO AIP Dataset before operational use.",
+        "source_airac_context": "Repository release history current through AIRAC 2026-07-09; London TMA lateral limits last noted revised 2026-03-19."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              0.7366666666666666,
+              51.73361111111111
+            ],
+            [
+              0.6777777777777777,
+              52.04055555555556
+            ],
+            [
+              0.79,
+              52.0125
+            ],
+            [
+              0.8438888888888889,
+              51.74194444444444
+            ],
+            [
+              0.9255555555555555,
+              51.605000000000004
+            ],
+            [
+              0.8333333333333334,
+              51.57138888888889
+            ],
+            [
+              0.7366666666666666,
+              51.73361111111111
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "LONDON TMA",
+        "id": "london-tma-8",
+        "sequence": "8",
+        "type": "TMA",
+        "class": "A",
+        "lower_label": "5500 ft",
+        "upper_label": "FL195",
+        "lower_ft_visual": 5500.0,
+        "upper_ft_visual": 19500.0,
+        "lower_m_visual": 1676.4,
+        "upper_m_visual": 5943.6,
+        "lower_reference": "AMSL/ALT",
+        "upper_reference": "FL/STD",
+        "source_note": "Geometry transcribed in the public ahsparrow/airspace YAIXM repository from the UK AIP; cross-check against the current NATS UK ICAO AIP Dataset before operational use.",
+        "source_airac_context": "Repository release history current through AIRAC 2026-07-09; London TMA lateral limits last noted revised 2026-03-19."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              0.79,
+              52.0125
+            ],
+            [
+              1.1180555555555556,
+              51.93
+            ],
+            [
+              1.383888888888889,
+              51.98444444444444
+            ],
+            [
+              1.4430555555555555,
+              51.87277777777778
+            ],
+            [
+              1.4166666666666667,
+              51.65138888888889
+            ],
+            [
+              1.263611111111111,
+              51.37972222222222
+            ],
+            [
+              1.0408333333333335,
+              50.97833333333333
+            ],
+            [
+              0.75,
+              50.75194444444445
+            ],
+            [
+              0.5,
+              50.666666666666664
+            ],
+            [
+              -0.3722222222222222,
+              50.666666666666664
+            ],
+            [
+              -0.6372222222222222,
+              50.916666666666664
+            ],
+            [
+              -0.3822222222222222,
+              50.916666666666664
+            ],
+            [
+              -0.35416666666666663,
+              50.908055555555556
+            ],
+            [
+              -0.07166666666666667,
+              50.865833333333335
+            ],
+            [
+              0.7716666666666667,
+              51.151666666666664
+            ],
+            [
+              0.8333333333333334,
+              51.355555555555554
+            ],
+            [
+              0.8333333333333334,
+              51.474722222222226
+            ],
+            [
+              0.8333333333333334,
+              51.57138888888889
+            ],
+            [
+              0.9255555555555555,
+              51.605000000000004
+            ],
+            [
+              0.8438888888888889,
+              51.74194444444444
+            ],
+            [
+              0.79,
+              52.0125
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "LONDON TMA",
+        "id": "london-tma-9",
+        "sequence": "9",
+        "type": "TMA",
+        "class": "A",
+        "lower_label": "5500 ft",
+        "upper_label": "FL195",
+        "lower_ft_visual": 5500.0,
+        "upper_ft_visual": 19500.0,
+        "lower_m_visual": 1676.4,
+        "upper_m_visual": 5943.6,
+        "lower_reference": "AMSL/ALT",
+        "upper_reference": "FL/STD",
+        "source_note": "Geometry transcribed in the public ahsparrow/airspace YAIXM repository from the UK AIP; cross-check against the current NATS UK ICAO AIP Dataset before operational use.",
+        "source_airac_context": "Repository release history current through AIRAC 2026-07-09; London TMA lateral limits last noted revised 2026-03-19."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -0.3663888888888889,
+              52.18444444444444
+            ],
+            [
+              0.0911111111111111,
+              52.18444444444444
+            ],
+            [
+              0.4305555555555556,
+              52.10166666666667
+            ],
+            [
+              -0.2866666666666667,
+              52.10166666666667
+            ],
+            [
+              -0.3663888888888889,
+              52.18444444444444
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "LONDON TMA",
+        "id": "london-tma-10",
+        "sequence": "10",
+        "type": "TMA",
+        "class": "A",
+        "lower_label": "5500 ft",
+        "upper_label": "FL195",
+        "lower_ft_visual": 5500.0,
+        "upper_ft_visual": 19500.0,
+        "lower_m_visual": 1676.4,
+        "upper_m_visual": 5943.6,
+        "lower_reference": "AMSL/ALT",
+        "upper_reference": "FL/STD",
+        "source_note": "Geometry transcribed in the public ahsparrow/airspace YAIXM repository from the UK AIP; cross-check against the current NATS UK ICAO AIP Dataset before operational use.",
+        "source_airac_context": "Repository release history current through AIRAC 2026-07-09; London TMA lateral limits last noted revised 2026-03-19."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1.0,
+              51.74916666666667
+            ],
+            [
+              -0.9211111111111111,
+              51.58083333333334
+            ],
+            [
+              -1.0,
+              51.575833333333335
+            ],
+            [
+              -1.0,
+              51.550555555555555
+            ],
+            [
+              -1.193888888888889,
+              51.573055555555555
+            ],
+            [
+              -1.0,
+              51.74916666666667
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "LONDON TMA",
+        "id": "ltma-11",
+        "sequence": "11",
+        "type": "TMA",
+        "class": "A",
+        "lower_label": "4500 ft",
+        "upper_label": "FL195",
+        "lower_ft_visual": 4500.0,
+        "upper_ft_visual": 19500.0,
+        "lower_m_visual": 1371.6000000000001,
+        "upper_m_visual": 5943.6,
+        "lower_reference": "AMSL/ALT",
+        "upper_reference": "FL/STD",
+        "source_note": "Geometry transcribed in the public ahsparrow/airspace YAIXM repository from the UK AIP; cross-check against the current NATS UK ICAO AIP Dataset before operational use.",
+        "source_airac_context": "Repository release history current through AIRAC 2026-07-09; London TMA lateral limits last noted revised 2026-03-19."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1.193888888888889,
+              51.573055555555555
+            ],
+            [
+              -1.0,
+              51.550555555555555
+            ],
+            [
+              -1.0,
+              51.40833333333333
+            ],
+            [
+              -0.9188888888888889,
+              51.28472222222222
+            ],
+            [
+              -0.9227281406143122,
+              51.28349314578035
+            ],
+            [
+              -0.9264188072879287,
+              51.28209679028945
+            ],
+            [
+              -0.930030415612392,
+              51.28062148123068
+            ],
+            [
+              -0.9335586747022271,
+              51.27906897452667
+            ],
+            [
+              -0.9369993941291022,
+              51.277441117799924
+            ],
+            [
+              -0.9403484889299327,
+              51.27573984814668
+            ],
+            [
+              -0.9436019844818803,
+              51.273967189803926
+            ],
+            [
+              -0.9467560212380799,
+              51.2721252517124
+            ],
+            [
+              -0.9498068593185741,
+              51.270216224978924
+            ],
+            [
+              -0.9527508829508429,
+              51.268242380240885
+            ],
+            [
+              -0.955584604754681,
+              51.266206064936604
+            ],
+            [
+              -0.958304669866226,
+              51.2641097004846
+            ],
+            [
+              -0.9609078598965347,
+              51.26195577937559
+            ],
+            [
+              -0.9633910967198721,
+              51.25974686218066
+            ],
+            [
+              -1.1549999999999998,
+              51.33222222222223
+            ],
+            [
+              -1.1394444444444445,
+              51.39666666666667
+            ],
+            [
+              -1.2455555555555555,
+              51.40972222222222
+            ],
+            [
+              -1.193888888888889,
+              51.573055555555555
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "LONDON TMA",
+        "id": "london-tma-13",
+        "sequence": "13",
+        "type": "TMA",
+        "class": "A",
+        "lower_label": "5500 ft",
+        "upper_label": "FL195",
+        "lower_ft_visual": 5500.0,
+        "upper_ft_visual": 19500.0,
+        "lower_m_visual": 1676.4,
+        "upper_m_visual": 5943.6,
+        "lower_reference": "AMSL/ALT",
+        "upper_reference": "FL/STD",
+        "source_note": "Geometry transcribed in the public ahsparrow/airspace YAIXM repository from the UK AIP; cross-check against the current NATS UK ICAO AIP Dataset before operational use.",
+        "source_airac_context": "Repository release history current through AIRAC 2026-07-09; London TMA lateral limits last noted revised 2026-03-19."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1.1549999999999998,
+              51.33222222222223
+            ],
+            [
+              -0.9633333333333333,
+              51.25972222222222
+            ],
+            [
+              -0.9609078598965347,
+              51.26195577937559
+            ],
+            [
+              -0.958304669866226,
+              51.2641097004846
+            ],
+            [
+              -0.955584604754681,
+              51.266206064936604
+            ],
+            [
+              -0.9527508829508429,
+              51.268242380240885
+            ],
+            [
+              -0.9498068593185741,
+              51.270216224978924
+            ],
+            [
+              -0.9467560212380799,
+              51.2721252517124
+            ],
+            [
+              -0.9436019844818803,
+              51.273967189803926
+            ],
+            [
+              -0.9403484889299327,
+              51.27573984814668
+            ],
+            [
+              -0.9369993941291022,
+              51.277441117799924
+            ],
+            [
+              -0.9335586747022271,
+              51.27906897452667
+            ],
+            [
+              -0.930030415612392,
+              51.28062148123068
+            ],
+            [
+              -0.9264188072879287,
+              51.28209679028945
+            ],
+            [
+              -0.9227281406143122,
+              51.28349314578035
+            ],
+            [
+              -0.9189628017989749,
+              51.28480888559722
+            ],
+            [
+              -0.8080555555555556,
+              51.114444444444445
+            ],
+            [
+              -0.9108333333333334,
+              51.10055555555556
+            ],
+            [
+              -0.8552777777777778,
+              50.937777777777775
+            ],
+            [
+              -0.9855555555555555,
+              50.919999999999995
+            ],
+            [
+              -0.9158333333333334,
+              50.85527777777778
+            ],
+            [
+              -0.8705555555555556,
+              50.81333333333333
+            ],
+            [
+              -1.287222222222222,
+              50.824444444444445
+            ],
+            [
+              -1.0597222222222222,
+              50.90972222222222
+            ],
+            [
+              -1.1158333333333335,
+              51.07222222222222
+            ],
+            [
+              -1.2200000000000002,
+              51.058055555555555
+            ],
+            [
+              -1.1549999999999998,
+              51.33222222222223
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "LONDON TMA",
+        "id": "london-tma-14",
+        "sequence": "14",
+        "type": "TMA",
+        "class": "A",
+        "lower_label": "5000 ft",
+        "upper_label": "FL195",
+        "lower_ft_visual": 5000.0,
+        "upper_ft_visual": 19500.0,
+        "lower_m_visual": 1524.0,
+        "upper_m_visual": 5943.6,
+        "lower_reference": "AMSL/ALT",
+        "upper_reference": "FL/STD",
+        "source_note": "Geometry transcribed in the public ahsparrow/airspace YAIXM repository from the UK AIP; cross-check against the current NATS UK ICAO AIP Dataset before operational use.",
+        "source_airac_context": "Repository release history current through AIRAC 2026-07-09; London TMA lateral limits last noted revised 2026-03-19."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -0.6844444444444444,
+              50.96083333333333
+            ],
+            [
+              -0.5744444444444444,
+              50.97555555555556
+            ],
+            [
+              -0.3822222222222222,
+              50.916666666666664
+            ],
+            [
+              -0.6372222222222222,
+              50.916666666666664
+            ],
+            [
+              -0.6844444444444444,
+              50.96083333333333
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "LONDON TMA",
+        "id": "london-tma-16",
+        "sequence": "16",
+        "type": "TMA",
+        "class": "A",
+        "lower_label": "5500 ft",
+        "upper_label": "FL195",
+        "lower_ft_visual": 5500.0,
+        "upper_ft_visual": 19500.0,
+        "lower_m_visual": 1676.4,
+        "upper_m_visual": 5943.6,
+        "lower_reference": "AMSL/ALT",
+        "upper_reference": "FL/STD",
+        "source_note": "Geometry transcribed in the public ahsparrow/airspace YAIXM repository from the UK AIP; cross-check against the current NATS UK ICAO AIP Dataset before operational use.",
+        "source_airac_context": "Repository release history current through AIRAC 2026-07-09; London TMA lateral limits last noted revised 2026-03-19."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              0.4502777777777778,
+              52.09666666666667
+            ],
+            [
+              0.8636111111111111,
+              52.12027777777778
+            ],
+            [
+              0.8133333333333334,
+              52.00666666666667
+            ],
+            [
+              0.4502777777777778,
+              52.09666666666667
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "LONDON TMA",
+        "id": "london-tma-17",
+        "sequence": "17",
+        "type": "TMA",
+        "class": "A",
+        "lower_label": "FL75",
+        "upper_label": "FL195",
+        "lower_ft_visual": 7500.0,
+        "upper_ft_visual": 19500.0,
+        "lower_m_visual": 2286.0,
+        "upper_m_visual": 5943.6,
+        "lower_reference": "FL/STD",
+        "upper_reference": "FL/STD",
+        "source_note": "Geometry transcribed in the public ahsparrow/airspace YAIXM repository from the UK AIP; cross-check against the current NATS UK ICAO AIP Dataset before operational use.",
+        "source_airac_context": "Repository release history current through AIRAC 2026-07-09; London TMA lateral limits last noted revised 2026-03-19."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              0.8133333333333334,
+              52.00666666666667
+            ],
+            [
+              0.8636111111111111,
+              52.12027777777778
+            ],
+            [
+              0.9666666666666667,
+              51.968333333333334
+            ],
+            [
+              0.8133333333333334,
+              52.00666666666667
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "LONDON TMA",
+        "id": "london-tma-18",
+        "sequence": "18",
+        "type": "TMA",
+        "class": "A",
+        "lower_label": "FL75",
+        "upper_label": "FL195",
+        "lower_ft_visual": 7500.0,
+        "upper_ft_visual": 19500.0,
+        "lower_m_visual": 2286.0,
+        "upper_m_visual": 5943.6,
+        "lower_reference": "FL/STD",
+        "upper_reference": "FL/STD",
+        "source_note": "Geometry transcribed in the public ahsparrow/airspace YAIXM repository from the UK AIP; cross-check against the current NATS UK ICAO AIP Dataset before operational use.",
+        "source_airac_context": "Repository release history current through AIRAC 2026-07-09; London TMA lateral limits last noted revised 2026-03-19."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              0.4502777777777778,
+              52.09666666666667
+            ],
+            [
+              0.0911111111111111,
+              52.18444444444444
+            ],
+            [
+              0.545,
+              52.18444444444444
+            ],
+            [
+              0.8052777777777779,
+              52.20583333333334
+            ],
+            [
+              0.8636111111111111,
+              52.12027777777778
+            ],
+            [
+              0.4502777777777778,
+              52.09666666666667
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "LONDON TMA",
+        "id": "london-tma-19",
+        "sequence": "19",
+        "type": "TMA",
+        "class": "A",
+        "lower_label": "5500 ft",
+        "upper_label": "FL195",
+        "lower_ft_visual": 5500.0,
+        "upper_ft_visual": 19500.0,
+        "lower_m_visual": 1676.4,
+        "upper_m_visual": 5943.6,
+        "lower_reference": "AMSL/ALT",
+        "upper_reference": "FL/STD",
+        "source_note": "Geometry transcribed in the public ahsparrow/airspace YAIXM repository from the UK AIP; cross-check against the current NATS UK ICAO AIP Dataset before operational use.",
+        "source_airac_context": "Repository release history current through AIRAC 2026-07-09; London TMA lateral limits last noted revised 2026-03-19."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1.1905555555555556,
+              51.962500000000006
+            ],
+            [
+              -0.62,
+              52.072500000000005
+            ],
+            [
+              -0.5780555555555555,
+              52.05444444444444
+            ],
+            [
+              -0.3722222222222222,
+              52.190555555555555
+            ],
+            [
+              -0.2866666666666667,
+              52.10166666666667
+            ],
+            [
+              -0.47555555555555556,
+              52.010555555555555
+            ],
+            [
+              -0.3625,
+              51.96194444444445
+            ],
+            [
+              -0.49194444444444446,
+              51.83916666666667
+            ],
+            [
+              -1.0,
+              51.74916666666667
+            ],
+            [
+              -1.011388888888889,
+              51.73888888888889
+            ],
+            [
+              -1.1905555555555556,
+              51.962500000000006
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "LONDON TMA",
+        "id": "london-tma-20",
+        "sequence": "20",
+        "type": "TMA",
+        "class": "A",
+        "lower_label": "4500 ft",
+        "upper_label": "FL195",
+        "lower_ft_visual": 4500.0,
+        "upper_ft_visual": 19500.0,
+        "lower_m_visual": 1371.6000000000001,
+        "upper_m_visual": 5943.6,
+        "lower_reference": "AMSL/ALT",
+        "upper_reference": "FL/STD",
+        "source_note": "Geometry transcribed in the public ahsparrow/airspace YAIXM repository from the UK AIP; cross-check against the current NATS UK ICAO AIP Dataset before operational use.",
+        "source_airac_context": "Repository release history current through AIRAC 2026-07-09; London TMA lateral limits last noted revised 2026-03-19."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              0.2891666666666667,
+              51.073888888888895
+            ],
+            [
+              0.36138888888888887,
+              51.01416666666667
+            ],
+            [
+              -0.07166666666666667,
+              50.865833333333335
+            ],
+            [
+              -0.35416666666666663,
+              50.908055555555556
+            ],
+            [
+              -0.5744444444444444,
+              50.97555555555556
+            ],
+            [
+              -0.1686111111111111,
+              50.92805555555555
+            ],
+            [
+              0.22583333333333333,
+              50.983333333333334
+            ],
+            [
+              0.2613888888888889,
+              51.00055555555556
+            ],
+            [
+              0.2891666666666667,
+              51.073888888888895
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "LONDON TMA",
+        "id": "london-tma-21",
+        "sequence": "21",
+        "type": "TMA",
+        "class": "A",
+        "lower_label": "FL65",
+        "upper_label": "FL195",
+        "lower_ft_visual": 6500.0,
+        "upper_ft_visual": 19500.0,
+        "lower_m_visual": 1981.2,
+        "upper_m_visual": 5943.6,
+        "lower_reference": "FL/STD",
+        "upper_reference": "FL/STD",
+        "source_note": "Geometry transcribed in the public ahsparrow/airspace YAIXM repository from the UK AIP; cross-check against the current NATS UK ICAO AIP Dataset before operational use.",
+        "source_airac_context": "Repository release history current through AIRAC 2026-07-09; London TMA lateral limits last noted revised 2026-03-19."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -0.6844444444444444,
+              50.96083333333333
+            ],
+            [
+              -0.4855555555555556,
+              50.77388888888889
+            ],
+            [
+              -0.8283333333333334,
+              50.77388888888889
+            ],
+            [
+              -0.8705555555555556,
+              50.81333333333333
+            ],
+            [
+              -0.9158333333333334,
+              50.85527777777778
+            ],
+            [
+              -0.9855555555555555,
+              50.919999999999995
+            ],
+            [
+              -0.8552777777777778,
+              50.937777777777775
+            ],
+            [
+              -0.7066666666666667,
+              50.95777777777778
+            ],
+            [
+              -0.6844444444444444,
+              50.96083333333333
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "LONDON TMA",
+        "id": "london-tma-23",
+        "sequence": "23",
+        "type": "TMA",
+        "class": "A",
+        "lower_label": "5500 ft",
+        "upper_label": "FL195",
+        "lower_ft_visual": 5500.0,
+        "upper_ft_visual": 19500.0,
+        "lower_m_visual": 1676.4,
+        "upper_m_visual": 5943.6,
+        "lower_reference": "AMSL/ALT",
+        "upper_reference": "FL/STD",
+        "source_note": "Geometry transcribed in the public ahsparrow/airspace YAIXM repository from the UK AIP; cross-check against the current NATS UK ICAO AIP Dataset before operational use.",
+        "source_airac_context": "Repository release history current through AIRAC 2026-07-09; London TMA lateral limits last noted revised 2026-03-19."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1.4297222222222223,
+              51.60194444444445
+            ],
+            [
+              -1.193888888888889,
+              51.573055555555555
+            ],
+            [
+              -1.2455555555555555,
+              51.40972222222222
+            ],
+            [
+              -1.4805555555555556,
+              51.43861111111111
+            ],
+            [
+              -1.4297222222222223,
+              51.60194444444445
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "LONDON TMA",
+        "id": "london-tma-24",
+        "sequence": "24",
+        "type": "TMA",
+        "class": "A",
+        "lower_label": "4500 ft",
+        "upper_label": "FL195",
+        "lower_ft_visual": 4500.0,
+        "upper_ft_visual": 19500.0,
+        "lower_m_visual": 1371.6000000000001,
+        "upper_m_visual": 5943.6,
+        "lower_reference": "AMSL/ALT",
+        "upper_reference": "FL/STD",
+        "source_note": "Geometry transcribed in the public ahsparrow/airspace YAIXM repository from the UK AIP; cross-check against the current NATS UK ICAO AIP Dataset before operational use.",
+        "source_airac_context": "Repository release history current through AIRAC 2026-07-09; London TMA lateral limits last noted revised 2026-03-19."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -0.8080555555555556,
+              51.114444444444445
+            ],
+            [
+              -0.7066666666666667,
+              50.95777777777778
+            ],
+            [
+              -0.8552777777777778,
+              50.937777777777775
+            ],
+            [
+              -0.9108333333333334,
+              51.10055555555556
+            ],
+            [
+              -0.8080555555555556,
+              51.114444444444445
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "LONDON CTR",
+        "id": "london-ctr-1",
+        "sequence": "1",
+        "type": "CTR",
+        "class": "D",
+        "lower_label": "SFC",
+        "upper_label": "2500 ft",
+        "lower_ft_visual": 0.0,
+        "upper_ft_visual": 2500.0,
+        "lower_m_visual": 0.0,
+        "upper_m_visual": 762.0,
+        "lower_reference": "SFC",
+        "upper_reference": "AMSL/ALT",
+        "source_note": "Geometry transcribed in the public ahsparrow/airspace YAIXM repository from the UK AIP; cross-check against the current NATS UK ICAO AIP Dataset before operational use.",
+        "source_airac_context": "Repository release history current through AIRAC 2026-07-09; London TMA lateral limits last noted revised 2026-03-19."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -0.6925,
+              51.60305555555556
+            ],
+            [
+              -0.21472222222222223,
+              51.60305555555556
+            ],
+            [
+              -0.20746149986721693,
+              51.59780096506087
+            ],
+            [
+              -0.20050481420196936,
+              51.592389514290055
+            ],
+            [
+              -0.19385543843738734,
+              51.586830582935406
+            ],
+            [
+              -0.18752133034835106,
+              51.581130918773965
+            ],
+            [
+              -0.18151005637003603,
+              51.575297437855994
+            ],
+            [
+              -0.17582878280059577,
+              51.56933721592817
+            ],
+            [
+              -0.17048426754041413,
+              51.56325747967201
+            ],
+            [
+              -0.16548285237609822,
+              51.55706559776908
+            ],
+            [
+              -0.1608304558160749,
+              51.550769071804886
+            ],
+            [
+              -0.15653256648422065,
+              51.544375527023625
+            ],
+            [
+              -0.15259423707663872,
+              51.537892702945705
+            ],
+            [
+              -0.14902007888603908,
+              51.53132844386044
+            ],
+            [
+              -0.1458142568972774,
+              51.524690689206146
+            ],
+            [
+              -0.1429804854566421,
+              51.51798746385025
+            ],
+            [
+              -0.14052202451662732,
+              51.511226868281405
+            ],
+            [
+              -0.13844167645728878,
+              51.504417068726625
+            ],
+            [
+              -0.13674178348415872,
+              51.49756628720555
+            ],
+            [
+              -0.13542422560208944,
+              51.49068279153445
+            ],
+            [
+              -0.13449041916357596,
+              51.48377488529245
+            ],
+            [
+              -0.13394131598929904,
+              51.476850897762255
+            ],
+            [
+              -0.13377740305792274,
+              51.46991917385799
+            ],
+            [
+              -0.1339987027614704,
+              51.46298806405208
+            ],
+            [
+              -0.13460477372188345,
+              51.45606591431381
+            ],
+            [
+              -0.1355947121637197,
+              51.449161056071176
+            ],
+            [
+              -0.13696715383730518,
+              51.442281796208476
+            ],
+            [
+              -0.13872027648601115,
+              51.43543640711118
+            ],
+            [
+              -0.14085180285080995,
+              51.428633116769895
+            ],
+            [
+              -0.14335900420457176,
+              51.421880098954986
+            ],
+            [
+              -0.1462387044081715,
+              51.41518546347333
+            ],
+            [
+              -0.14948728447992482,
+              51.408557246518164
+            ],
+            [
+              -0.15310068766923474,
+              51.40200340112346
+            ],
+            [
+              -0.15707442502515084,
+              51.395531787733084
+            ],
+            [
+              -0.16140358144992556,
+              51.38915016489607
+            ],
+            [
+              -0.16608282222721954,
+              51.38286618009776
+            ],
+            [
+              -0.17110640001442884,
+              51.37668736073734
+            ],
+            [
+              -0.17646816228797718,
+              51.37062110526177
+            ],
+            [
+              -0.18216155923034572,
+              51.36467467446549
+            ],
+            [
+              -0.188179652047205,
+              51.35885518296564
+            ],
+            [
+              -0.1945151217026106,
+              51.35316959086204
+            ],
+            [
+              -0.20116027806010134,
+              51.34762469559048
+            ],
+            [
+              -0.2081070694174377,
+              51.34222712397859
+            ],
+            [
+              -0.2153470924220894,
+              51.33698332451205
+            ],
+            [
+              -0.6333333333333333,
+              51.33694444444445
+            ],
+            [
+              -0.71,
+              51.350833333333334
+            ],
+            [
+              -0.7163510557780923,
+              51.356388411924414
+            ],
+            [
+              -0.7224192955753006,
+              51.36206600883929
+            ],
+            [
+              -0.7281753665756959,
+              51.36786989769355
+            ],
+            [
+              -0.7336124634969388,
+              51.37379333674029
+            ],
+            [
+              -0.7387241440822477,
+              51.37982944276153
+            ],
+            [
+              -0.7435043370111829,
+              51.38597119890972
+            ],
+            [
+              -0.747947349421799,
+              51.3922114627141
+            ],
+            [
+              -0.7520478740335812,
+              51.39854297424308
+            ],
+            [
+              -0.7558009958607819,
+              51.40495836441441
+            ],
+            [
+              -0.7592021985060354,
+              51.411450163443924
+            ],
+            [
+              -0.7622473700245294,
+              51.41801080942393
+            ],
+            [
+              -0.7649328083492193,
+              51.4246326570221
+            ],
+            [
+              -0.7672552262680319,
+              51.43130798629109
+            ],
+            [
+              -0.7692117559442455,
+              51.438029011579495
+            ],
+            [
+              -0.7707999529717117,
+              51.444787890534144
+            ],
+            [
+              -0.772017799957064,
+              51.451576733183806
+            ],
+            [
+              -0.7728637096212752,
+              51.458387611093926
+            ],
+            [
+              -0.7733365274136534,
+              51.46521256658252
+            ],
+            [
+              -0.7734355336316467,
+              51.47204362198601
+            ],
+            [
+              -0.7731604450404435,
+              51.478872788965205
+            ],
+            [
+              -0.77251141598686,
+              51.48569207784013
+            ],
+            [
+              -0.7714890390025544,
+              51.49249350694292
+            ],
+            [
+              -0.770094344892172,
+              51.499269111978194
+            ],
+            [
+              -0.7683288023026903,
+              51.50601095537941
+            ],
+            [
+              -0.7661943167707527,
+              51.51271113565042
+            ],
+            [
+              -0.7636932292455194,
+              51.51936179668091
+            ],
+            [
+              -0.760828314085161,
+              51.525955137024596
+            ],
+            [
+              -0.7576027765258622,
+              51.5324834191288
+            ],
+            [
+              -0.7540202496228049,
+              51.53893897850436
+            ],
+            [
+              -0.7500847906634707,
+              51.54531423282439
+            ],
+            [
+              -0.7458008770541875,
+              51.551601690940785
+            ],
+            [
+              -0.7411734016817317,
+              51.55779396180721
+            ],
+            [
+              -0.736207667752312,
+              51.5638837632973
+            ],
+            [
+              -0.7309093831114875,
+              51.569863930907225
+            ],
+            [
+              -0.7252846540489017,
+              51.57572742633121
+            ],
+            [
+              -0.7193399785926218,
+              51.581467345899426
+            ],
+            [
+              -0.7130822392990297,
+              51.58707692886713
+            ],
+            [
+              -0.7065186955443998,
+              51.592549565544566
+            ],
+            [
+              -0.699656975325727,
+              51.597878805257004
+            ],
+            [
+              -0.6925050665786384,
+              51.603058364124415
+            ],
+            [
+              -0.6925,
+              51.60305555555556
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}
